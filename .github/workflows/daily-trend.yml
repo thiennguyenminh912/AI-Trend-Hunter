@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 1 * * *"   # 08:00 AM Vietnam Time (UTC+7)
     - cron: "0 12 * * *"  # 07:00 PM Vietnam Time (UTC+7)
+    - cron: "10 10 * * *" # 05:10 PM Vietnam Time (UTC+7) — test run
   workflow_dispatch:        # Allow manual trigger from GitHub UI
 
 jobs:
